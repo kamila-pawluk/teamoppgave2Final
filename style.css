@@ -1,0 +1,129 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/b4/58/1d/b4581df9e47ce538d21555c94f75da95.gif);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    align-items: center;
+
+   
+}
+
+.progressBar{
+    justify-content: center;
+    width: 500px;
+    height: 25px;
+    display: flex;
+    margin-right: 50px;
+    color: rgb(26, 15, 15);
+    background: linear-gradient(to right, rgb(232, 163, 234), lightblue);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+
+
+}
+
+.box{
+    position: fixed;
+}
+#catView{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.foodLvl, .funLvl, .cleanlinessLvl {
+        margin-bottom: 10px;
+        border: 10px;
+    }
+
+#catImage {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+.catButtons {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    gap: 50px;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+
+   }
+button{
+    background-color: lightblue;
+    color: rgb(3, 3, 13);
+    height: 35px;
+    width: 100px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 50px;
+} 
+
+.dialogue {
+    background-image: url("https://i.pinimg.com/originals/3a/20/71/3a207143cc51491915f0752aee488d2a.png");
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px; 
+    width: 180px;
+}
+
+img{
+   
+    display: flex; 
+    visibility: visible; 
+    width: 100px;
+    height: 100px;
+}
+.Lost{
+    text-align: center;
+}
+#notification {
+    text-align: center;
+    margin: 50px;
+    font-size: 1em;
+}
+
+.centerImage{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:30px;
+    height: 250px;
+    width: 250px;   
+}
+
+#centerImage2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+}
+.restartButton{
+    position: relative;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.startGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+}
